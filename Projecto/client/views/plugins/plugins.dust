@@ -1,0 +1,19 @@
+<div class="pluginDiv">
+  <h3 class="text-center pluginTitle">Select Files</h3>
+  <img class="checkmarkBlockIcon"  />
+
+  <div class="progressBar">
+    <div class="c100 p0 darkGray small" style="position:absolute;top:5%;left:80%;">
+      <span>0%</span>
+      <div class="slice">
+        <div class="bar"></div>
+        <div class="fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <label for="file" class="center-block">  <img class="pluginImg center-block" src="/static/imgs/uploadIcon.png"/>  </label>
+  <input type="file" class="pluginFile" id="file" style="display:none;" multiple/>
+  <input type="hidden" class="pluginData" id="fileData" alt="" name=""/>
+  <h3 class="text-center filesAdded"></h3>
+</div>

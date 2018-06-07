@@ -1,0 +1,1426 @@
+; LIFE for Rodrigo
+
+;Gym
+@Fitness Hut Amoreiras @ 38.720781, -9.160034
+@Virgin Active Lisboa @ 38.728634, -9.147625
+
+;Institutional
+@IST @ 38.7362817,-9.1395272
+@ISEL @ 38.756552, -9.116419
+@INESC-ID @ 38.736411, -9.140664
+@ATEC (Academia de Formação) @ 38.581268, -9.003906
+
+;Homes
+@Home @ 38.726012, -9.168659
+@Girlfriend Home @ 38.7542566,-9.1734289
+@Marys Home @ 38.7189017,-9.1648352
+@Walez Home @ 38.727466, -9.145830
+@Aunt Carla Home @ 38.658854, -9.161985
+@Uncle Luis Home @ 38.737144, -9.224593
+@Azeitão Home @ 38.504646, -9.018650
+@Aunt Manuela Home @ 38.735144, -9.157765
+@Wave Home @ 38.756297, -9.169759
+@Eduardo Amorim Home @ 38.767917, -9.183816
+@Uncle Francisco Home @ 38.752418, -9.173191
+@Manuel Alves Home @ 38.774647, -9.097562
+
+;Restaurants
+@Rodas @ 38.7199426,-9.1548915
+@The Great American Disaster @ 38.724469, -9.150366
+@Capricciosa Estoril @ 38.701181, -9.415181
+@100 Montaditos Saldanha @ 38.735164, -9.142421
+@Já Fumega @ 38.720325, -9.161549
+@McDonalds Oeiras @ 38.685308, -9.313208
+@McDonalds Saldanha @ 38.735448, -9.144930
+@Telepizza Telheiras @ 38.762092, -9.179634
+@Super Chefe Saldanha @ 38.735234, -9.143940
+@O Prego da Peixaria Saldanha @ 38.733472, -9.146648
+@Marisqueira Valbom @ 38.737896, -9.151884
+@Mercantina Alvalade @ 38.753335, -9.144531
+
+;Hospitals
+@SAMS @ 38.7340454,-9.1583517
+
+;Sports
+@Polidesportivo Santo António @ 38.723063, -9.143521
+@Polidesportivo Chelas @ 38.759028, -9.114316
+
+;Veterinarian
+@AZP (Associação Zoófila Portuguesa) @ 38.734287, -9.149585
+
+;Shopping Centers
+@Alegro @ 38.7255029,-9.219002
+@Amoreiras @ 38.723193, -9.162174
+@Colombo @ 38.754713, -9.188930
+@Alamda Forum @ 38.660539, -9.174284
+@Vasco Da Gama @ 38.767776, -9.097497
+
+;Stores
+@Amplifon Arroios @ 38.731920, -9.134178
+@Amplifon Campo de Ourique @ 38.717800, -9.163958
+
+;Hotels
+@Inglaterra Hotel Estoril @ 38.705417, -9.395138
+@Myriad Hotel @ 38.774783, -9.091929
+
+;Stations
+@Pragal Railway Station @ 38.665803, -9.179598
+
+;Bars
+@Joker Laranjeiras @ 38.751304, -9.173398
+@Magnetic Saldanha @ 38.735263, -9.148953
+@Hot Dog Lovers @ 38.723320, -9.147940
+
+;Places
+@Almada @ 38.676188, -9.164915
+@Seixal @ 38.640716, -9.098421
+@Barreiro @ 38.660948, -9.079330
+@Azeitão @ 38.519383, -9.013961
+@Quinta do Anjo @ 38.566602, -8.942672
+@Palmela @ 38.569823, -8.903418
+@Setúbal @ 38.526689, -8.889814
+@Pinhal Novo @ 38.631481, -8.914531
+@Cais Do Sodré @ 38.705913, -9.143581
+@S.Sebastião @ 38.734314, -9.154187
+@Feijó @ 38.653433, -9.163228
+@Campo Grande @ 38.754093, -9.151575
+@Palácio da Justiça @ 38.732569, -9.157927
+@Marquês de Pombal @ 38.725277, -9.150042
+@Linha dÁgua @ 38.732017, -9.154693
+@Fátima @ 39.617990, -8.667755
+@Fátima Ourém @ 39.614882, -8.664508
+@Sister Lucia Home @ 39.615549, -8.664902
+@Fátima Sanctuary @ 39.630490, -8.674243
+
+;Companies
+@BOLD International Portugal @ 38.771588, -9.097820
+@Accenture Amoreiras @ 38.723797, -9.161659
+@Nova Base @ 38.765268, -9.097812
+@Collab @ 38.771780, -9.097760
+
+;Random
+@Sara Mauricio Garage @ 38.803745, -9.161512
+@Aunt Manuela Work @ 38.725986, -9.161070
+@Baltasar Father Office @ 38.726408, -9.114260
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;January 2017;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+--2017_01_01
+UTC                           ;setting the "default timezone"
+0000-1930: Home
+1931-1950: Home->Fitness Hut Amoreiras [walk]
+1951-2300: Fitness Hut Amoreiras
+2301-2321: Fitness Hut Amoreiras->Home [walk]
+2301-2359: Home
+
+--2017_01_02
+0000-1935: Home
+1936-1957: Home->Fitness Hut Amoreiras [walk]
+1958-2254: Fitness Hut Amoreiras
+2255-2316: Fitness Hut Amoreiras->Home [walk]
+2317-2359: Home
+
+--2017_01_03
+0000-1945: Home
+1946-2007: Home->Fitness Hut Amoreiras [walk]
+2008-2240: Fitness Hut Amoreiras
+2241-2317: Fitness Hut Amoreiras->Home [walk]
+2318-2359: Home
+
+--2017_01_04
+0000-1920: Home
+1921-1947: Home->Fitness Hut Amoreiras [walk]
+1948-2235: Fitness Hut Amoreiras
+2236-2256: Fitness Hut Amoreiras->Home [walk]
+2257-2359: Home
+
+--2017_01_05
+0000-1920: Home
+1921-1947: Home->Fitness Hut Amoreiras [walk]
+1948-2235: Fitness Hut Amoreiras
+2236-2256: Fitness Hut Amoreiras->Home [walk]
+2257-2359: Home
+
+--2017_01_06
+0000-1920: Home
+1921-1947: Home->Fitness Hut Amoreiras [walk]
+1948-2235: Fitness Hut Amoreiras
+2236-2258: Fitness Hut Amoreiras->Home [walk]
+2259-2359: Home
+
+--2017_01_07                        ;Saturday
+0000-1040: Home
+1041-1100: Home->Fitness Hut Amoreiras [walk]
+1101-1405: Fitness Hut Amoreiras
+1406-1428: Fitness Hut Amoreiras->Home [walk]
+1430-1703: Home
+1704-1720: Home->Marys Home [walk]
+1721-2338: Marys Home
+2339-2352: Marys Home->Home [walk]
+2353-2359: Home
+
+--2017_01_08                        ;Sunday
+0000-1534: Home
+1535-1600: Home->Rodas [bus]
+1601-1845: Rodas {Coffee with Vasco Wilton}
+1846-1918: Rodas->Home [bus]
+1919-2359: Home
+
+--2017_01_09
+0000-1920: Home
+1921-1947: Home->Fitness Hut Amoreiras [walk]
+1948-2235: Fitness Hut Amoreiras
+2236-2258: Fitness Hut Amoreiras->Home [walk]
+2259-2359: Home
+
+--2017_01_10
+0000-1920: Home
+1921-1947: Home->Fitness Hut Amoreiras [walk]
+1948-2235: Fitness Hut Amoreiras
+2236-2258: Fitness Hut Amoreiras->Home [walk]
+2259-2359: Home
+
+--2017_01_11
+0000-1920: Home
+1921-1947: Home->Fitness Hut Amoreiras [walk]
+1948-2235: Fitness Hut Amoreiras
+2236-2258: Fitness Hut Amoreiras->Home [walk]
+2259-2359: Home
+
+--2017_01_12
+0000-1920: Home
+1921-1947: Home->Fitness Hut Amoreiras [walk]
+1948-2235: Fitness Hut Amoreiras
+2236-2258: Fitness Hut Amoreiras->Home [walk]
+2259-2359: Home
+
+--2017_01_13
+0000-1920: Home
+1921-1947: Home->Fitness Hut Amoreiras [walk]
+1948-2235: Fitness Hut Amoreiras
+2236-2258: Fitness Hut Amoreiras->Home [walk]
+2259-2359: Home
+
+--2017_01_14                  ;Saturday
+0000-1005: Home
+1006-1024: Home->Girlfriend Home [car]
+1025-1053: Girlfriend Home->Alegro [car]
+1100-1838: Alegro                  {Sheep and Wolves, masks delivery work}
+1839-1909: Alegro->Girlfriend Home [car]
+1910-1929: Girlfriend Home->Home [car]
+1930-2359: Home
+
+--2017_01_15                  ;Sunday
+0000-1005: Home
+1006-1024: Home->Girlfriend Home            [car]
+1025-1053: Girlfriend Home->Alegro          [car]
+1100-1838: Alegro                           {Sheep and Wolves, masks delivery work}
+1839-1909: Alegro->Girlfriend Home          [car]
+1910-1929: Girlfriend Home->Home            [car]
+1930-2359: Home
+
+--2017_01_16
+0000-2359: Home
+
+--2017_01_17
+0000-1839: Home
+1840-1902: Home->Amoreiras                                            [walk]
+1903-2104: Amoreiras                                                  [movies] {Cinema, Assassins Creed}
+2106-2134: Amoreiras->The Great American Disaster                     [walk]
+2140-2234: The Great American Disaster
+2238-2314: The Great American Disaster->Walez Home                    [walk]
+2314-2359: Walez Home
+
+--2017_01_18
+0000-1423: Walez Home
+1424-1440: Walez Home->AZP (Associação Zoófila Portuguesa)            [walk]
+1441-1635: AZP (Associação Zoófila Portuguesa)                        {Biggie Vaccination}
+1638-1653: AZP (Associação Zoófila Portuguesa)->Walez Home            [walk]
+1654-1915: Walez Home                                                 {Lunch}
+1916-1946: Walez Home->Girlfriend Home                                [bus]
+1947-2017: Girlfriend Home->Home                                      [bus]
+2018-2359: Home
+
+--2017_01_19
+0000-1329: Home
+1330-1356: Home->INESC-ID                [bus|bus:742]
+1400-1458: INESC-ID                      [meeting]  {Fortnightly meetings}
+1503-1542: INESC-ID->Home                [bus|bus:742]
+1538-2359: Home
+
+--2017_01_20
+0000-2359: Home
+
+--2017_01_21
+0000-2359: Home
+
+--2017_01_22
+0000-2359: Home
+
+--2017_01_23
+0000-2359: Home
+
+--2017_01_24
+0000-2359: Home
+
+--2017_01_25
+0000-2359: Home
+
+--2017_01_26
+0000-2359: Home
+
+--2017_01_27
+0000-2359: Home
+
+--2017_01_28                        ;Saturday
+0000-1040: Home
+1011-1030: Home->Fitness Hut Amoreiras                          [walk]
+1031-1305: Fitness Hut Amoreiras
+1306-1318: Fitness Hut Amoreiras->Home                          [walk]
+1325-1402: Home->Girlfriend Home              [bus|bus:701]
+1403-1430: Girlfriend Home->Colombo           [walk]
+1431-1620: Colombo                            [shopping] {Buy book for Bia and dumbbells for Francisco}
+1621-1640: Colombo->Girlfriend Home           [walk]
+1640-1810: Girlfriend Home                    {Lunch}
+1830-2359: Home
+
+--2017_01_29                        ;Sunday
+0000-2359: Home
+
+--2017_01_30
+0000-2359: Home
+
+--2017_01_31
+0000-2359: Home
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;February 2017;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+--2017_02_01
+0000-1303: Home
+1304-1333: Home->IST              [bus|bus:742]
+1333-1820: IST                    {Tese Presentation}
+1824-1850: IST->Home              [bus|bus:742]
+1852-2359: Home
+
+--2017_02_02
+0000-0830: Home
+0831-0910: Home->IST              [bus|bus:742]
+0911-1720: IST                    {Colleagues Tese Presentations}
+1721-1812: IST->Home              [bus|bus:742]
+1813-2359: Home
+
+--2017_02_03
+0000-2359: Home
+
+--2017_02_04                        ;Saturday
+0000-1120: Home
+1121-1143: Home->Fitness Hut Amoreiras [walk]
+1144-1435: Fitness Hut Amoreiras
+1436-1458: Fitness Hut Amoreiras->Home [walk]
+1459-2359: Home
+
+--2017_02_05                        ;Sunday
+0000-2359: Home
+
+--2017_02_06
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home [walk]
+2159-2359: Home
+
+--2017_02_07
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home [walk]
+2159-2359: Home
+
+--2017_02_08
+0000-1329: Home
+1330-1356: Home->INESC-ID                [bus|bus:742]
+1400-1458: INESC-ID                      [meeting]  {Fortnightly meetings}
+1503-1542: INESC-ID->Home                [bus|bus:742]
+1538-2359: Home
+
+--2017_02_09
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home [walk]
+2159-2359: Home
+
+--2017_02_10
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home [walk]
+2159-2359: Home
+
+--2017_02_11                        ;Saturday
+0000-1120: Home
+1121-1143: Home->Fitness Hut Amoreiras [walk]
+1144-1435: Fitness Hut Amoreiras
+1436-1458: Fitness Hut Amoreiras->Home [walk]
+1459-2359: Home
+
+--2017_02_12                        ;Sunday
+0000-2359: Home
+
+--2017_02_13
+0000-1059: Home
+1100-1120: Home->Girlfriend Home                          [car]
+1121-1143: Girlfriend Home->Home                          [car]
+1144-1330: Home
+1331-1442: Home->Inglaterra Hotel Estoril                 [car]
+1443-1932: Inglaterra Hotel Estoril
+1933-2032: Inglaterra Hotel Estoril->Capricciosa Estoril  [walk]
+2033-2152: Capricciosa Estoril
+2152-2252: Capricciosa Estoril->Inglaterra Hotel Estoril  [walk]
+2253-2359: Inglaterra Hotel Estoril
+
+--2017_02_14
+0000-1231: Inglaterra Hotel Estoril
+1232-1251: Inglaterra Hotel Estoril->McDonalds Oeiras     [car]
+1252-1421: McDonalds Oeiras
+1422-1511: McDonalds Oeiras->Sara Mauricio Garage         [car]
+1512-1608: Sara Mauricio Garage
+1609-1632: Sara Mauricio Garage->Girlfriend Home          [car]
+1633-1932: Girlfriend Home
+1933-1952: Girlfriend Home->Home                          [car]
+
+--2017_02_15
+0000-0730: Home
+0731-0830: Home->ATEC (Academia de Formação)              [car] {ATEC Flyers Delivery}
+0831-0850: ATEC (Academia de Formação)                          {ATEC Flyers Delivery}
+0851-0920: ATEC (Academia de Formação)->Almada            [car] {ATEC Flyers Delivery}
+0921-1520: Almada                                               {ATEC Flyers Delivery}
+1521-1541: Almada->Seixal                                 [car] {ATEC Flyers Delivery}
+1542-1811: Seixal                                               {ATEC Flyers Delivery}
+1812-1853: Seixal->Girlfriend Home                        [car]
+1854-1923: Girlfriend Home->Home                          [car]
+1924-2359: Home
+
+--2017_02_16
+0000-0830: Home
+0831-0856: Home->Almada                                   [car] {ATEC Flyers Delivery}
+0857-1454: Almada                                               {ATEC Flyers Delivery}
+1455-1517: Almada->Barreiro                               [car] {ATEC Flyers Delivery}
+1518-1913: Barreiro                                             {ATEC Flyers Delivery}
+1914-2014: Barreiro->Girlfriend Home                      [car] {ATEC Flyers Delivery}
+2015-2036: Girlfriend Home->Home                          [car]
+2037-2359: Home
+
+--2017_02_17
+0000-0830: Home
+0831-0910: Home->Azeitão                                  [car] {ATEC Flyers Delivery}
+0911-1055: Azeitão                                              {ATEC Flyers Delivery}
+1056-1119: Azeitão->Quinta do Anjo                        [car] {ATEC Flyers Delivery}
+1119-1159: Quinta do Anjo                                       {ATEC Flyers Delivery}
+1200-1231: Quinta do Anjo->Palmela                        [car] {ATEC Flyers Delivery}
+1232-1443: Palmela                                              {ATEC Flyers Delivery}
+1444-1517: Palmela->Setúbal                               [car] {ATEC Flyers Delivery}
+1518-1713: Setúbal                                              {ATEC Flyers Delivery}
+1714-1742: Setúbal->Pinhal Novo                           [car] {ATEC Flyers Delivery}
+1743-1934: Pinhal Novo                                          {ATEC Flyers Delivery}
+1935-2025: Pinhal Novo->Girlfriend Home                   [car] {ATEC Flyers Delivery}
+2026-2045: Girlfriend Home->Home                          [car]
+2046-2359: Home
+
+--2017_02_18                        ;Saturday
+0000-1120: Home
+1121-1143: Home->Fitness Hut Amoreiras                    [walk]
+1144-1435: Fitness Hut Amoreiras
+1436-1458: Fitness Hut Amoreiras->Home                    [walk]
+1459-2359: Home
+
+--2017_02_19                        ;Sunday
+0000-2359: Home
+
+--2017_02_20
+0000-0930: Home
+0931-1002: Home->IST                                      [bus|bus:742]
+1003-1802: IST                                            [SINFO 24] {Semana Informática do IST}
+1803-1837: IST->Fitness Hut Amoreiras                     [bus|bus:742]
+1837-2237: Fitness Hut Amoreiras
+2238-2302: Fitness Hut Amoreiras->Home                    [walk]
+2303-2359: Home
+
+--2017_02_21
+0000-0930: Home
+0931-1002: Home->IST                                      [bus|bus:742]
+1003-1802: IST                                            [SINFO 24] {Semana Informática do IST}
+1803-1837: IST->Fitness Hut Amoreiras                     [bus|bus:742]
+1837-2237: Fitness Hut Amoreiras
+2238-2302: Fitness Hut Amoreiras->Home                    [walk]
+2303-2359: Home
+
+--2017_02_22
+0000-0930: Home
+0931-1002: Home->IST                                      [bus|bus:742]
+1003-1802: IST                                            [SINFO 24] {Semana Informática do IST}
+1803-1837: IST->Fitness Hut Amoreiras                     [bus|bus:742]
+1837-2237: Fitness Hut Amoreiras
+2238-2302: Fitness Hut Amoreiras->Home                    [walk]
+2303-2359: Home
+
+--2017_02_23
+0000-0930: Home
+0931-1002: Home->IST                                      [bus|bus:742]
+1003-2322: IST                                            [SINFO 24] {Semana Informática do IST}
+2323-2357: IST->Home                                      [bus|bus:742]
+2358-2359: Home
+
+--2017_02_24
+0000-0930: Home
+0931-1002: Home->IST                                      [bus|bus:742]
+1003-1802: IST                                            [SINFO 24] {Semana Informática do IST}
+1803-1837: IST->Fitness Hut Amoreiras                     [bus|bus:742]
+1837-2237: Fitness Hut Amoreiras
+2238-2302: Fitness Hut Amoreiras->Home                    [walk]
+2303-2359: Home
+
+--2017_02_25            ;Saturday
+0000-0730: Home
+0731-0752: Home->IST                                      [car]
+0753-1322: IST                                            [SINFO 24] {Semana Informática do IST Disassembly}
+1323-1353: IST->Girlfriend Home                           [bus|bus:726]
+1353-1433: Girlfriend Home
+1434-1459: Girlfriend Home->Aunt Carla Home               [car]
+1500-1919: Aunt Carla Home                                            {Uncle José Alexandre Birthday}
+1920-1950: Aunt Carla Home->Home                          [car]
+1951-2012: Home->Já Fumega                                [car]
+2013-2245: Já Fumega                                                  {SINFO Dinner}
+2246-2301: Já Fumega->Walez Home                          [car]
+2302-2353: Walez Home
+2353-2357: Walez Home->Home                               [car]
+2358-2359: Home
+
+--2017_02_26          ;Sunday
+0000-2359: Home
+
+--2017_02_27
+0000-2359: Home
+
+--2017_02_28
+0000-2359: Home
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;March 2017;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+--2017_03_01
+0000-0929: Home
+0930-1006: Home->INESC-ID                [bus|bus:742]
+1007-1108: INESC-ID                      [meeting]       {Fortnightly meetings}
+1109-1142: INESC-ID->Home                [bus|bus:742]
+1143-1432: Home
+1433-1508: Home->IST                     [bus|bus:742]
+1509-1634: IST                           [presentation]  {Novabase Presentation}
+1635-1710: IST->Home                     [bus|bus:742]
+1711-2359: Home
+
+--2017_03_02
+0000-2103: Home
+2104-2123: Home->Joker Laranjeiras       [car]
+2124-2332: Joker Laranjeiras
+2333-2352: Joker Laranjeiras->Home       [car]
+2353-2359: Home
+
+--2017_03_03
+0000-2033: Home
+2034-2103: Home->100 Montaditos Saldanha              [bus|bus:742]
+2104-2143: 100 Montaditos Saldanha
+2144-2201: 100 Montaditos Saldanha->Magnetic Saldanha [walk]
+2202-2348: Magnetic Saldanha
+2349-2357: Magnetic Saldanha->Home                    [car]
+2358-2359: Home
+
+--2017_03_04                        ;Saturday
+0000-1120: Home
+1121-1143: Home->Fitness Hut Amoreiras                [walk]
+1144-1435: Fitness Hut Amoreiras
+1436-1458: Fitness Hut Amoreiras->Home                [walk]
+1459-2359: Home
+
+--2017_03_05                        ;Sunday
+0000-2359: Home
+
+--2017_03_06
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_03_07
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_03_08
+0000-1934: Home
+1935-1950: Home->IST                                  [car]
+1951-2254: IST                                        {SINFO meeting}
+2255-2303: IST->McDonalds Saldanha                    [walk]
+2304-2333: McDonalds Saldanha
+2334-2346: McDonalds Saldanha->Girlfriend Home        [car]
+2347-2357: Girlfriend Home->Home                      [car]
+2358-2359: Home
+
+--2017_03_09
+0000-1724: Home
+1724-1800: Home->ISEL                                   [subway]
+1801-1932: ISEL                                         [football] {Vasco}
+1933-1953: ISEL->IST                                    [car]
+1954-2045: IST
+2046-2103: IST->Polidesportivo Santo António            [car]
+2105-2233: Polidesportivo Santo António                 [football] {SINFO}
+2234-2303: Polidesportivo Santo António->Hot Dog Lovers [walk] {Wallez work}
+2304-2336: Hot Dog Lovers
+2337-2357: Hot Dog Lovers->Home                         [walk]
+2358-2359: Home
+
+--2017_03_10
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_03_11                        ;Saturday
+0000-1120: Home
+1121-1143: Home->Fitness Hut Amoreiras                [walk]
+1144-1435: Fitness Hut Amoreiras
+1436-1458: Fitness Hut Amoreiras->Home                [walk]
+1459-2359: Home
+
+--2017_03_12                        ;Sunday
+0000-2359: Home
+
+--2017_03_13
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_03_14
+0000-1402: Home
+1403-1452: Home->Polidesportivo Chelas
+  1403-1438: Home->Cais Do Sodré                    [bus|bus:758]
+  1439-1452: Cais Do Sodré->Polidesportivo Chelas   [bus]
+1453-1612: Polidesportivo Chelas                    [football] {Wallez}
+1613-1652: Polidesportivo Chelas->Hot Dog Lovers    [subway]
+1653-2052: Hot Dog Lovers
+2053-2139: Hot Dog Lovers->Home                     [walk]
+2140-2359: Home
+
+--2017_03_15
+0000-0930: Home
+0931-0956: Home->INESC-ID                [bus|bus:742]
+0957-1056: INESC-ID                      [meeting]  {Fortnightly meetings}
+1057-1128: INESC-ID->Home                [bus|bus:742]
+1129-2359: Home
+
+
+--2017_03_16
+0000-1820: Home
+1721-1747: Home->Fitness Hut Amoreiras                [walk]
+1748-2004: Fitness Hut Amoreiras
+2005-2025: Fitness Hut Amoreiras->Home                [walk]
+2026-2050: Home
+2051-2110: Home->Uncle Luis Home                      [car]
+2111-2336: Uncle Luis Home                                      {Cousin Mafalda Birthday}
+2337-2357: Uncle Luis Home->Home                      [car]
+2358-2359: Home
+
+--2017_03_17
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_03_18
+0000-1010: Home
+1015-1107: Home->Azeitão Home                         [car]
+1108-2359: Azeitão Home                                         {Cousin Nuno Birthday}
+
+--2017_03_19
+0000-1932: Azeitão Home                                         {Cousin Nuno Birthday}
+1933-2037: Azeitão Home->Home                         [car]
+2038-2359: Home
+
+--2017_03_20
+0000-1515: Home
+1516-1558: Home->BOLD International Portugal
+  1516-1537: Home->S.Sebastião                           [bus|bus:742]
+  1538-1558: S.Sebastião ->BOLD International Portugal   [subway]
+1559-1647: BOLD International Portugal                                {Job interview}
+1648-1728: BOLD International Portugal->Home
+  1648-1710: BOLD International Portugal->S.Sebastião    [subway]
+  1711-1728: S.Sebastião ->Home                          [bus|bus:742]
+1729-1832: Home
+1833-1847: Home->Fitness Hut Amoreiras                    [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                    [walk]
+2159-2359: Home
+
+--2017_03_21
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_03_22
+0000-2359: Home
+
+--2017_03_23
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_03_24
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_03_25                        ;Saturday
+0000-1120: Home
+1121-1143: Home->Fitness Hut Amoreiras                [walk]
+1144-1435: Fitness Hut Amoreiras
+1436-1458: Fitness Hut Amoreiras->Home                [walk]
+1459-2359: Home
+
+--2017_03_26                        ;Sunday
+0000-2359: Home
+
+--2017_03_27
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_03_28
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_03_29
+0000-0930: Home
+0931-0956: Home->INESC-ID                [bus|bus:742]
+0957-1056: INESC-ID                      [meeting]  {Fortnightly meetings}
+1057-1128: INESC-ID->Home                [bus|bus:742]
+1129-2359: Home
+
+--2017_03_30
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_03_31
+0000-0944: Home
+0945-1004: Home->Aunt Manuela Work                      [walk]
+1005-1334: Aunt Manuela Work                                    {Allergolidil and Halitose Banners}
+1335-1402: Aunt Manuela Work->Home                      [walk]
+1402-1523: Home
+1524-1601: Home->ISEL                                   [subway]
+1602-1715: ISEL                                         [football] {Vasco}
+1716-1743: ISEL->Home                                   [subway]
+1744-2359: Home
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;April 2017;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+--2017_04_01                        ;Saturday
+0000-1120: Home
+1121-1143: Home->Fitness Hut Amoreiras                [walk]
+1144-1435: Fitness Hut Amoreiras
+1436-1458: Fitness Hut Amoreiras->Home                [walk]
+1459-2359: Home
+
+--2017_04_02                        ;Sunday
+0000-2359: Home
+
+--2017_04_03
+0000-1723: Home
+1724-1803: Home->Walez Home                           [walk]
+1804-2359: Walez Home
+
+--2017_04_04
+0000-2147: Walez Home
+2148-2235: Walez Home->Home                           [walk]
+2236-2359: Home
+
+--2017_04_05
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_04_06
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_04_07
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_04_08                        ;Saturday
+0000-1120: Home
+1121-1143: Home->Fitness Hut Amoreiras                [walk]
+1144-1435: Fitness Hut Amoreiras
+1436-1458: Fitness Hut Amoreiras->Home                [walk]
+1459-2359: Home
+
+--2017_04_09                        ;Sunday
+0000-2359: Home
+
+--2017_04_10
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_04_11
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_04_12
+0000-1200: Home
+1201-1226: Home->SAMS                                 [bus|bus:742]
+1227-1252: SAMS                                       {Consulta Saúde Oral}
+1253-1316: SAMS->Home                                 [bus|bus:742]
+1317-1828: Home
+1829-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_04_13
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_04_14
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_04_15                        ;Saturday
+0000-1120: Home
+1121-1143: Home->Fitness Hut Amoreiras                [walk]
+1144-1435: Fitness Hut Amoreiras
+1436-1458: Fitness Hut Amoreiras->Home                [walk]
+1459-2359: Home
+
+--2017_04_16                        ;Sunday
+0000-2359: Home
+
+--2017_04_17
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_04_18
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_04_19
+0000-0930: Home
+0931-0956: Home->INESC-ID                [bus|bus:742]
+0957-1056: INESC-ID                      [meeting]   {Fortnightly meetings}
+1057-1128: INESC-ID->Home                [bus|bus:742]
+1130-1828: Home
+1829-1855: Home->Amoreiras               [walk]
+1856-2330: Amoreiras                     [cinema] {Beauty and the Beast}
+2331-2349: Amoreiras->Home               [walk]
+2350-2359: Home
+
+--2017_04_20
+0000-0740: Home
+0741-0810: Home->Girlfriend Home              [car]
+0813-0855: Girlfriend Home->Amplifon Arroios  [car]
+0856-1839: Amplifon Arroios                           {Amplifon Flyers Delivery}
+1840-1910: Amplifon Arroios->Girlfriend Home  [car]
+1911-1938: Girlfriend Home->Home              [car]
+1939-2359: Home
+
+--2017_04_21
+0000-0740: Home
+0741-0810: Home->Girlfriend Home              [car]
+0813-0855: Girlfriend Home->Amplifon Arroios  [car]
+0856-1839: Amplifon Arroios                           {Amplifon Flyers Delivery}
+1840-1910: Amplifon Arroios->Girlfriend Home  [car]
+1911-1938: Girlfriend Home->Home              [car]
+1939-2359: Home
+
+--2017_04_22                        ;Saturday
+0000-1120: Home
+1121-1143: Home->Fitness Hut Amoreiras                [walk]
+1144-1435: Fitness Hut Amoreiras
+1436-1458: Fitness Hut Amoreiras->Home                [walk]
+1459-2359: Home
+
+--2017_04_23                        ;Sunday
+0000-2359: Home
+
+--2017_04_24
+0000-0740: Home
+0741-0810: Home->Girlfriend Home                       [car]
+0813-0855: Girlfriend Home->Amplifon Campo de Ourique  [car]
+0856-1839: Amplifon Campo de Ourique                          {Amplifon Flyers Delivery}
+1840-1910: Amplifon Campo de Ourique ->Girlfriend Home [car]
+1911-1938: Girlfriend Home->Home                       [car]
+1939-2359: Home
+
+--2017_04_25
+0000-0740: Home
+0741-0810: Home->Girlfriend Home                       [car]
+0813-0855: Girlfriend Home->Amplifon Campo de Ourique  [car]
+0856-1839: Amplifon Campo de Ourique                          {Amplifon Flyers Delivery}
+1840-1910: Amplifon Campo de Ourique ->Girlfriend Home [car]
+1911-1938: Girlfriend Home->Home                       [car]
+1939-2359: Home
+
+--2017_04_26
+0000-1200: Home
+1201-1217: Home->Amplifon Campo de Ourique             [car]
+1218-1225: Amplifon Campo de Ourique                          {Retrieve Amplifon material}
+1226-1240: Amplifon Campo de Ourique->SAMS             [car]
+1241-1300: SAMS                                               {Consulta Dermatologia}
+1300-1319: SAMS->Girlfriend Home                       [car]
+1330-1408: Girlfriend Home->Sara Mauricio Garage       [car]
+1409-1435: Sara Mauricio Garage                               {Retrieve non-delivered Flyers and get C&A Stuff}
+1436-1458: Sara Mauricio Garage->Girlfriend Home       [car]
+1459-1518: Girlfriend Home->Home                       [car]
+1519-2359: Home
+
+--2017_04_27
+0000-0740: Home
+0741-0810: Home->Girlfriend Home                       [car]
+0813-0855: Girlfriend Home->Pragal Railway Station     [car]
+0856-1110: Pragal Railway Station                             {C&A Flyers Delivery}
+1111-1125: Pragal Railway Station->Almada              [car]
+1126-1532: Almada                                             {C&A Flyers Delivery}
+1533-1542: Almada->Almada Forum                        [car]
+1543-1652: Almada Forum                                       {C&A Flyers Delivery}
+1653-1712: Almada Forum->Almada                        [car]
+1713-1852: Almada                                             {C&A Flyers Delivery}
+1853-1918: Almada->Aunt Carla Home                     [car]  {Dinner}
+1919-2158: Aunt Carla Home
+2159-2228: Aunt Carla Home->Girlfriend Home            [car]
+2229-2251: Girlfriend Home->Home                       [car]
+2252-2359: Home
+
+--2017_04_28
+0000-0755: Home
+0756-0825: Home->Girlfriend Home                       [car]
+0826-0915: Girlfriend Home->Almada                     [car]
+0916-1332: Almada                                             {C&A Flyers Delivery}
+1333-1342: Almada->Aunt Carla Home                     [car]
+1343-1432: Aunt Carla Home                                    {Lunch}
+1433-1444: Aunt Carla Home->Almada                     [car]
+1445-1852: Almada                                             {C&A Flyers Delivery}
+1853-1934: Almada->Girlfriend Home                     [car]
+1935-2011: Girlfriend Home->Home                       [car]
+2012-2359: Home
+
+--2017_04_29                        ;Saturday
+0000-0810: Home
+0811-0837: Home->Girlfriend Home                       [car]
+0838-0925: Girlfriend Home->Almada                     [car]
+0926-1332: Almada                                             {C&A Flyers Delivery}
+1333-1342: Almada->Aunt Carla Home                     [car]
+1343-1532: Aunt Carla Home                                    {Lunch}
+1533-1537: Aunt Carla Home->Feijó                      [car]
+1538-1932: Feijó                                              {C&A Flyers Delivery}
+1933-1937: Feijó->Aunt Carla Home                      [car]  {Dinner}
+1938-2258: Aunt Carla Home
+2259-2248: Aunt Carla Home->Girlfriend Home            [car]
+2249-2311: Girlfriend Home->Home                       [car]
+2312-2359: Home
+
+--2017_04_30                        ;Sunday
+0000-2359: Home
+
+--2017_05_01
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+
+--2017_05_02
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_05_03
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_05_04
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_05_05
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_05_06
+0000-1215: Home
+1216-1235: Home->SAMS                                 [car]
+1236-1305: SAMS                                             {Consulta de Cirurgia Plástica}
+1306-1315: SAMS->Home                                 [car]
+1316-1945: Home
+1946-2015: Home->Campo Grande                         [car]
+2016-2045: Campo Grande                                     {Deciding where we were going to eat}
+2046-2105: Campo Grande->Marta Gomes Home             [car]
+2106-2140: Marta Gomes Home                                 {Pick up Marta Gomes}
+2141-2204: Marta Gomes Home->Vasco Da Gama            [car]
+2205-2302: Vasco Da Gama                                    {Dinner at MacDonalds}
+2303-2322: Vasco Da Gama->Myriad Hotel                [walk]
+2323-2327: Myriad Hotel
+2328-2345: Myriad Hotel->Vasco Da Gama                [walk]
+2346-0000: Vasco Da Gama->Marta Gomes Home            [car]
+
+--2017_05_07
+0000-0019: Marta Gomes Home->Mario Rui Home           [car]
+0020-0045: Mario Rui Home->Girlfriend Home            [car]
+0046-0112: Girlfriend Home->Home                      [car]
+0113-1104: Home
+1105-1124: Home->Fitness Hut Amoreiras                [walk]
+1124-1334: Fitness Hut Amoreiras
+1335-1407: Fitness Hut Amoreiras->Aunt Manuela Home   [walk]
+1407-1934: Aunt Manuela Home                                  {Mother day Lunch}
+1935-1947: Aunt Manuela Home->Home                    [car]
+1948-0000: Home
+
+--2017_05_08
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_05_09
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_05_10
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_05_11
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_05_12
+0000-1515: Home
+1516-1537: Home->Wave Home                [car]
+1538-1620: Wave Home->Decathlon Amadora   [car]
+1630-1735: Decathlon Amadora              {Football Game with cousin Duarte}
+1736-1814: Decathlon Amadora->Wave Home   [car]
+1815-1820: Wave Home->Girlfriend Home     [car]
+1821-2320: Girlfriend Home
+2324-2349: Girlfriend Home->Home          [car]
+2350-2359: Home
+
+--2017_05_13
+0000-2032: Home
+2033-2047: Home->Palácio da Justiça               [car]
+2048-2103: Palácio da Justiça->Marquês de Pombal  [walk]
+2104-2340: Marquês de Pombal                      {Benfica Tetracampeonato celebration}
+2341-2346: Marquês de Pombal->Palácio da Justiça  [walk]
+2347-2357: Palácio da Justiça->Home               [car]
+2358-2359: Home
+
+--2017_05_14
+0000-1730: Home
+1731-1753: Home->Girlfriend Home     [car]
+1754-2320: Girlfriend Home           {Francisco Antunes Birthday}
+2321-2340: Girlfriend Home->Home     [car]
+2341-2359: Home
+
+--2017_05_15
+0000-2359: Home
+
+--2017_05_16
+0000-0835: Home
+0836-0851: Home->SAMS              [car]
+0852-1003: SAMS                    {Quisto Removal}
+1005-1024: SAMS->Home              [car]
+1025-1912: Home
+1913-1932: Home->Super Chefe Saldanha       [car]
+1933-2232: Super Chefe Saldanha             {Grandmother Ilda Birthday}
+2233-2251: Super Chefe Saldanha->Home       [car]
+2253-2359: Home
+
+--2017_05_17
+0000-1902: Home
+1903-1920: Home->O Prego da Peixaria Saldanha [car]
+1921-2120: O Prego da Peixaria Saldanha       {Dinner with Girlfriend}
+2121-2144: O Prego da Peixaria Saldanha->Home [car]
+2145-2359: Home
+
+--2017_05_18
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_05_19
+0000-1820: Home
+1821-1847: Home->Fitness Hut Amoreiras                [walk]
+1848-2135: Fitness Hut Amoreiras
+2136-2158: Fitness Hut Amoreiras->Home                [walk]
+2159-2359: Home
+
+--2017_05_20                        ;Saturday
+0000-1120: Home
+1121-1143: Home->Fitness Hut Amoreiras                [walk]
+1144-1435: Fitness Hut Amoreiras
+1436-1458: Fitness Hut Amoreiras->Home                [walk]
+1459-2359: Home
+
+--2017_05_21                        ;Sunday
+0000-2359: Home
+
+--2017_05_22
+0000-1520: Home
+1521-1547: Home->Fitness Hut Amoreiras                [walk]
+1548-1735: Fitness Hut Amoreiras
+1736-1758: Fitness Hut Amoreiras->Home                [walk]
+1759-2359: Home
+
+--2017_05_23
+0000-1520: Home
+1521-1547: Home->Fitness Hut Amoreiras                [walk]
+1548-1735: Fitness Hut Amoreiras
+1736-1758: Fitness Hut Amoreiras->Home                [walk]
+1759-2359: Home
+
+--2017_05_24
+0000-1120: Home
+1121-1143: Home->Fitness Hut Amoreiras                [walk]
+1144-1435: Fitness Hut Amoreiras
+1436-1458: Fitness Hut Amoreiras->Home                [walk]
+1459-2359: Home
+
+--2017_05_25
+0000-2359: Home
+
+--2017_05_26
+0000-2359: Home
+
+--2017_05_27                        ;Saturday
+0000-1120: Home
+1121-1143: Home->Fitness Hut Amoreiras                [walk]
+1144-1435: Fitness Hut Amoreiras
+1436-1458: Fitness Hut Amoreiras->Home                [walk]
+1459-2359: Home
+
+--2017_05_28                        ;Sunday
+0000-1705: Home
+1706-1725: Home->Eduardo Amorim Home     [car]
+1730-2230: Eduardo Amorim Home           {Taça de Portugal Final}
+2231-2253: Eduardo Amorim Home->Home     [car]
+2254-2359: Home
+
+--2017_05_29
+0000-1120: Home
+1121-1143: Home->Fitness Hut Amoreiras                [walk]
+1144-1435: Fitness Hut Amoreiras
+1436-1458: Fitness Hut Amoreiras->Home                [walk]
+1459-2359: Home
+
+--2017_05_30
+0000-2359: Home
+
+--2017_05_31
+0000-2359: Home
+
+--2017_06_01
+0000-1120: Home
+1121-1143: Home->Fitness Hut Amoreiras                [walk]
+1144-1435: Fitness Hut Amoreiras
+1436-1458: Fitness Hut Amoreiras->Home                [walk]
+1459-2359: Home
+
+--2017_06_02
+0000-1134: Home
+1135-1153: Home->Baltasar Father Office            [car]
+1154-1635: Baltasar Father Office
+1636-1658: Baltasar Father Office->Home            [car]
+1658-1748: Home
+1749-1805: Home->Uncle Francisco Home                [car]
+1806-1941: Uncle Francisco Home
+1942-1951: Uncle Francisco Home->Girlfriend Home     [walk]
+1952-2035: Girlfriend Home
+2036-2054: Girlfriend Home->Telepizza Telheiras      [car]
+2054-2243: Telepizza Telheiras
+2244-2310: Telepizza Telheiras->Girlfriend Home      [car]
+2311-2325: Girlfriend Home->Home                     [car]
+2326-2359: Home
+
+--2017_06_03        ;Saturday
+0000-1110: Home
+1111-1125: Home->Fitness Hut Amoreiras               [walk]
+1126-1346: Fitness Hut Amoreiras
+1347-1406: Fitness Hut Amoreiras->Home               [walk]
+1407-1810: Home
+1811-1835: Home->Uncle Luis Home                     [car]
+1836-2334: Uncle Luis Home                            {Champeons Cup Final}
+2335-2356: Uncle Luis Home->Home                     [car]
+2357-2359: Home
+
+--2017_06_04        ;Sunday
+0000-2359: Home
+
+--2017_06_05
+0000-1120: Home
+1131-1146: Home->Fitness Hut Amoreiras                [walk]
+1147-1435: Fitness Hut Amoreiras
+1436-1458: Fitness Hut Amoreiras->Home                [walk]
+1459-2359: Home
+
+--2017_06_06
+0000-1358: Home
+1359-1425: Home->INESC-ID                             [bus|bus:742]
+1426-1546: INESC-ID                                   [meeting]  {Fortnightly meetings}
+1547-1620: INESC-ID->Home                             [bus|bus:742]
+1621-1822: Home
+1823-1837: Home->Fitness Hut Amoreiras                [walk]
+1838-2140: Fitness Hut Amoreiras
+2141-2202: Fitness Hut Amoreiras->Home                [walk]
+2203-2359: Home
+
+--2017_06_07
+0000-1822: Home
+1823-1837: Home->Fitness Hut Amoreiras                [walk]
+1838-2140: Fitness Hut Amoreiras
+2141-2202: Fitness Hut Amoreiras->Home                [walk]
+2203-2359: Home
+
+--2017_06_08
+0000-1822: Home
+1823-1837: Home->Fitness Hut Amoreiras                [walk]
+1838-2140: Fitness Hut Amoreiras
+2141-2202: Fitness Hut Amoreiras->Home                [walk]
+2203-2359: Home
+
+--2017_06_09
+0000-1902: Home
+1903-1920: Home->Marisqueira Valbom                   [car]
+1922-2137: Marisqueira Valbom                         {Maria Ponces Birthday Dinner}
+2137-2153: Marisqueira Valbom->Linha dÁgua            [walk]
+2153-2313: Linha dÁgua                                {Maria Ponces Birthday Party}
+2314-2336: Linha dÁgua->Girlfriend Home               [car]
+2336-2356: Girlfriend Home->Home                      [car]
+2357-2359: Home
+
+--2017_06_10; Saturday
+0000-0822: Home
+0823-0922: Home->Fátima                               [car]
+0922-1422: Fátima                                     {Mother Birthday}
+1422-1512: Fátima Ourém                               {Mother Birthday}
+1513-1612: Sister Lucia Home                          {Mother Birthday}
+1613-1932: Fátima Sanctuary                           {Mother Birthday}
+1933-2022: Fátima->Home                               [car]
+2023-2359: Home
+
+--2017_06_11        ;Sunday
+0000-2359: Home
+
+--2017_06_12
+0000-1822: Home
+1823-1837: Home->Fitness Hut Amoreiras                [walk]
+1838-2140: Fitness Hut Amoreiras
+2141-2202: Fitness Hut Amoreiras->Home                [walk]
+2203-2359: Home
+
+--2017_06_13
+0000-1822: Home
+1823-1837: Home->Fitness Hut Amoreiras                [walk]
+1838-2140: Fitness Hut Amoreiras
+2141-2202: Fitness Hut Amoreiras->Home                [walk]
+2203-2359: Home
+
+--2017_06_14
+0000-1822: Home
+1823-1837: Home->Fitness Hut Amoreiras                [walk]
+1838-2140: Fitness Hut Amoreiras
+2141-2202: Fitness Hut Amoreiras->Home                [walk]
+2203-2359: Home
+
+--2017_06_15
+0000-1822: Home
+1823-1837: Home->Fitness Hut Amoreiras                [walk]
+1838-2140: Fitness Hut Amoreiras
+2141-2202: Fitness Hut Amoreiras->Home                [walk]
+2203-2359: Home
+
+--2017_06_16
+0000-1822: Home
+1323-1420: Home->Nova Base                            [subway]
+1423-1623: Nova Base                                  {Admission Tests Nova Base}
+1624-1716: Nova Base->Home                            [subway]
+1717-2359: Home
+
+--2017_06_17       ;Saturday
+0000-1110: Home
+1111-1125: Home->Fitness Hut Amoreiras               [walk]
+1126-1346: Fitness Hut Amoreiras
+1347-1406: Fitness Hut Amoreiras->Home               [walk]
+1407-2359: Home
+
+--2017_06_18        ;Sunday
+0000-2359: Home
+
+--2017_06_19
+0000-1822: Home
+1823-1837: Home->Fitness Hut Amoreiras                [walk]
+1838-2140: Fitness Hut Amoreiras
+2141-2202: Fitness Hut Amoreiras->Home                [walk]
+2203-2359: Home
+
+--2017_06_20
+0000-1822: Home
+1823-1837: Home->Fitness Hut Amoreiras                [walk]
+1838-2140: Fitness Hut Amoreiras
+2141-2202: Fitness Hut Amoreiras->Home                [walk]
+2203-2359: Home
+
+--2017_06_21
+0000-2022: Home
+2023-2101: Home->Telepizza Telheiras                  [car]
+2102-2259: Telepizza Telheiras                        {Girlfriend friends Dinner}
+2141-2202: Telepizza Telheiras->Home                  [car]
+2203-2359: Home
+
+--2017_06_22
+0000-0912: Home
+0913-0958: Home->Collab                               [subway]
+0959-1102: Collab                                     {Collab Interview}
+1103-1143: Collab->Home                               [subway]
+1144-1403: Home
+1404-1447: Home->Virgin Active Lisboa                 [bus|bus:712]
+1455-1835: Virgin Active Lisboa                       {Training}
+1836-1919: Virgin Active Lisboa->Home                 [bus|bus:712]
+1920-2359: Home
+
+--2017_06_23
+0000-2359: Home
+
+--2017_06_24 ;Saturday
+0000-1532: Home
+1532-1622: Home->Manuel Alves Home                    [subway]
+1625-2003: Manuel Alves Home                          {Portugal - New Zealand Confederations Cup}
+2004-2017: Manuel Alves Home->Mercantina Alvalade     [car]
+2018-2201: Mercantina Alvalade                        {Manuel Alves Birthday Dinner}
+2202-2231: Home->Joker Laranjeiras                    [car]
+2232-2341: Joker Laranjeiras                          {Playing Darts}
+2342-2357: Joker Laranjeiras->Home                    [car]
+2358-2359: Home
+
+--2017_06_25 ;Sunday
+0000-2359: Home
+
+--2017_06_26
+0000-2359: Home
+
+--2017_06_27
+0000-2359: Home
+
+--2017_06_28
+0000-0938: Home
+0939-1014: Home->INESC-ID                             [bus|bus:742]
+1015-1145: INESC-ID                                   [meeting]  {Fortnightly meetings}
+1146-1205: INESC-ID->Home                             [bus|bus:742]
+1206-1405: Home
+1406-1423: Home->Accenture Amoreiras                  [walk]
+1424-1630: Accenture Amoreiras                        {Accenture Interview}
+1631-1732: Accenture Amoreiras->Manuel Alves Home     [walk]
+1732-2312: Manuel Alves Home                          {Dinner}
+2313-2352: Manuel Alves Home->Home
+2353-2359: Home
+
+--2017_06_29
+0000-0908: Home
+0909-1004: Home->Collab                               [subway]
+1005-1145: Collab                                     {Collab Job Interview}
+1146-1235: Collab->Home                               [subway]
+1236-1815: Home
+1815-1832: Home->Fitness Hut Amoreiras                [walk]
+1833-2132: Fitness Hut Amoreiras
+2132-2147: Fitness Hut Amoreiras->Home                [walk]
+2148-2359: Home
+
+;///////////////////////////////////////////////////////////////////////////////////////////
+;/////////////////////////////////////////LOCATIONS/////////////////////////////////////////
+;///////////////////////////////////////////////////////////////////////////////////////////
+@Mario Rui Home @
+@Marta Gomes Home @
+@Choupana Saldanha @ 38.736525, -9.145825
