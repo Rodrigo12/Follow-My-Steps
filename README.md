@@ -1,6 +1,6 @@
 # Follow My Steps
 
-<img src="https://raw.githubusercontent.com/Rodrigo12/Follow-My-Steps/master/FollowMyStepsAppIcon.png" style="left:auto;" />
+<img src="https://raw.githubusercontent.com/Rodrigo12/Follow-My-Steps/master/FollowMyStepsAppIcon.png" style="text-align:center;" />
 
 Welcome to Follow My Steps Web and Mobile project
 
@@ -17,9 +17,9 @@ Additionally, you need to have Node.js installed on your machine.
 
 
 
-PostgreSQL: https://www.postgresql.org/download/
-PostGIS: https://postgis.net/source/
-Node.js: https://nodejs.org/en/download/
+</br>PostgreSQL: https://www.postgresql.org/download/
+</br>PostGIS: https://postgis.net/source/
+</br>Node.js: https://nodejs.org/en/download/
 
 
 
