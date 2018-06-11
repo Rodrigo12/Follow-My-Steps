@@ -1,6 +1,6 @@
 # Follow My Steps
 
-![alt text](https://raw.githubusercontent.com/Rodrigo12/Follow-My-Steps/master/FollowMyStepsAppIcon.png)
+<img src="https://raw.githubusercontent.com/Rodrigo12/Follow-My-Steps/master/FollowMyStepsAppIcon.png" style="left:auto;" />
 
 Welcome to Follow My Steps Web and Mobile project
 
@@ -14,7 +14,7 @@ This system is divided into two parts, the Project which is the web-based applic
 To run the web application you need to posteriorly install the PostgreSQL database and its geographical extension PostGIS.
 Additionally, you need to have Node.js installed on your machine.
 
-<img src="https://raw.githubusercontent.com/Rodrigo12/Follow-My-Steps/master/FollowMyStepsAppIcon.png" />
+
 
 
 PostgreSQL: https://www.postgresql.org/download/
