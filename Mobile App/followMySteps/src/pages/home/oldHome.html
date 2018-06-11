@@ -1,0 +1,64 @@
+<ion-header>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+  <script src="lib/jquery-1.11.1.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+  <ion-navbar color=followMySteps style="height:60px;">
+    <img src="assets/imgs/FollowMyStepsAppIcon.png" style="position:absolute; width:40px; bottom:0px; right:5px;" (click)='presentPopover($event);' />
+    <h4 style="position:absolute; bottom:0px; left:5px; color:white;">Follow My Steps</h4>
+  </ion-navbar>
+</ion-header>
+
+<ion-content (ionScroll)="onScroll($event)">
+  <div style="height:100%; width:100%;" id="map" padding></div>
+  <img src="assets/imgs/scrollArrow.gif" style="position:fixed; bottom:10px; right:10px; z-index:1001; width: 50px" id="scrollDown" (click)='scrollToPosition(515);' />
+  <img id="findMyLocationMarker" src="assets/imgs/youAreHerePhoneIcon.png" style="position:absolute; width:40px; bottom:10px; left:10px; z-index:1001; width: 50px; visibility:hidden;" (click)='goToMyLocation();' />
+
+<ion-card id="currentPlaceCard">
+  <ion-card-header style="background-color:#FFB466; padding:5px; margin:5px; border-radius:5px;">
+    🏠 Current Place
+  </ion-card-header>
+  <ion-card-content>
+    <p style="margin-top:15px;margin-bottom:15px;">
+      No info available
+    </p>
+    <p style="margin-bottom:15px;"></p>
+    <p style="margin-bottom:15px;"></p>
+    <p></p>
+  </ion-card-content>
+</ion-card>
+
+<ion-card id="closestPlacesCard">
+  <ion-card-header style="background-color:#4CAA61; padding:5px; margin:5px; border-radius:5px;">
+    🗺 Closest Places
+  </ion-card-header>
+  <ion-card-content>
+
+    <div *ngFor="let number of maxClosestPlaces" [attr.id]="'location' + number" class="locationItem" style="position:relative;display:null;margin-top:15px;" #div (click)='showPath($event, div);'></div>
+
+  </ion-card-content>
+</ion-card>
+
+<ion-card id="lifeDataCard">
+  <ion-card-header style="background-color:#E1635B; padding:5px; margin:5px; border-radius:5px;">
+    📅 Last Day Here
+  </ion-card-header>
+  <ion-card-content>
+    <p>
+      Da ultima vez que ca estive
+        LIFE content
+    </p>
+  </ion-card-content>
+</ion-card>
+
+<ion-card id="photosDataCard">
+  <ion-card-header style="background-color:#E1635B; padding:5px; margin:5px; border-radius:5px;">
+    📷 Photos
+  </ion-card-header>
+  <ion-card-content>
+    <p>
+      No photos available
+    </p>
+  </ion-card-content>
+</ion-card>
+
+</ion-content>

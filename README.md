@@ -9,7 +9,7 @@ Welcome to Follow My Steps Web and Mobile project
 Follow My Steps is a system, developed for both web and mobile, to study the best way to present visualizations to users, regarding their past experiences based on lifelogging data collected over an extended period of time, in a personally relevant way.
 It offers a personalized interface, with 9 different visualizations techniques, built to help users with their forgotten memories or experiences.
 
-This system is divided into two parts, the Project which is the web-based application and the App which is the mobile application.
+This system is divided into two parts, the web-based application and the mobile application.
 
 ## Web
 The Web Application is focused on displaying the user's data through the use of visualization techniques that can be inserted, edited or deleted, by each user, on the interface.

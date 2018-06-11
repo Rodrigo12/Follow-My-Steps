@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Follow My Steps</title>
+    <link rel="icon" href="/static/imgs/followmystepsicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ==" crossorigin=""/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/cal-heatmap/3.6.1/cal-heatmap.css" /> -->
+    <link rel="stylesheet" href="/static/js/external/cal-heatmap-3.6.1/cal-heatmap.css" />
+
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript" src="/static/js/external/cal-heatmap-3.6.1/cal-heatmap.min.js"></script>
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/cal-heatmap/3.6.1/cal-heatmap.min.js"></script> -->
+  </head>
+  <body onload="loadFiles()" style="visibility:hidden;">
+
+    <div id="loading" ><div><img src="/static/imgs/loading.gif" /></div></div>
+
+    <!-- ///////////////PLUGINS MODALS/////////////// -->
+    <div id="columnModalContainer"></div>
+    <input type="hidden" id="buttonSelected" name="buttonSelected" />
+    <div id="photosModalContainer"></div>
+    <input type="hidden" id="photosDetails" name="photosDetails" />
+
+    <!-- ///////////////SETTINGS CONTAINER/////////////// -->
+    <div id="settingsContainer" class='container draggable'>
+      <h1 id="settingsTitle" style='text-align:center;margin-top:10%;margin-bottom:1%;'>Settings</h1>
+
+      <div id='settingsContainerContent'>
+        <div id="filesContentButton">
+          <div id="filesDetails"></div>
+        </div>
+
+        <div id="styleContentButton">
+          <div id="styleDetails"></div>
+        </div>
+
+        <div id="advancedContentButton">
+          <div id="advancedDetails"></div>
+        </div>
+      </div>
+
+
+
+      <div id="filesContent">
+        <!-- Add files menu -->
+        <form id="pluginForm" style='display:none;'>  </form>
+
+        <!-- Update files menu -->
+        <div id="updateContent" style='display:none;'></div>
+
+        <!-- Delete files menu -->
+        <div id="removeContent" style='display:none;'></div>
+      </div>
+
+      <div id="stylesContent">
+        <div id="visualizationStyleContent" style='display:none;'></div>
+        <div id="backgroundContent" style='display:none;'></div>
+        <div id="fontContent" style='display:none;'></div>
+      </div>
+
+      <div id="advancedContent" style='display:none'>
+        <!--  cache menu -->
+        <div id="cacheContent" style='display:none;'></div>
+        <!--  report menu -->
+        <div id="reportContent" style='display:none;'></div>
+        <!--  save menu -->
+        <div id="saveContent" style='display:none;'></div>
+
+      </div>
+
+      <!-- Back arrow and close icon -->
+      <img class="backArrowContainerIcon" src="/static/imgs/icons/containerIcons/arrows/back.png"  style="display:none; cursor:pointer; position:absolute; top:20px; left:20px; width:10px; " />
+      <img class="closeContainerIcon"     src="/static/imgs/icons/containerIcons/arrows/close.png" style="display:none; cursor:pointer; position:absolute; top:20px; right:20px; width:10px;"/>
+    </div>
+
+    <!-- ///////////////TIMELINE CONTAINER/////////////// -->
+    <div id='timelineContainer' class="container draggable">
+      <h1 id="timelineTitle" style='text-align:center;margin-top:10%;margin-bottom:10%;'>Timeline</h1>
+
+      <div id='timelineContainerContent'>
+      </div>
+
+      <img class="closeContainerIcon"     src="/static/imgs/icons/containerIcons/arrows/close.png" style="display:none; cursor:pointer; position:absolute; top:20px; right:20px; width:10px;"/>
+    </div>
+
+    <!-- ///////////////VISUALIZATION CONTAINER/////////////// -->
+    <div id="visualizationContainer" class="container draggable">
+      <div id="visualizationContent">
+        <h1  id="visualizationText" style='margin:5%;'>Add Visualization</h1>
+      </div>
+
+      <div id="visualizationContentDetails">
+        <div id="visualizationsHeader">
+          <h1 id="visualizationTitle" style='text-align:center;display:none;margin:5%;'></h1>
+          <div id="visualizationStyleCircle" class="noCircle"></div>
+          <div id="visualizationVariablesCircle" class="noCircle circle"></div>
+          <img id="visualizationStyleButton"     src="./imgs/icons/editIcon.png"          class="visualizationDetailsIcon"  />
+          <img id="visualizationVariablesButton" src="./imgs/icons/visualizationIcon.png" class="visualizationDetailsIcon"  />
+          <div id="visualizationHeaderPreview" class="headerPreview"></div>
+        </div>
+
+        <div id="visualizationDetails" style="position:absolute;"></div>
+        <div id="visualizationEditDetails" style="position:absolute; display:none;"></div>
+
+        <button id="addVisualizationButton" class="btn btn-default addVisualizationButton">Add</button>
+      </div>
+
+      <div id="visualizationImageDetails" style="display:none;"></div>
+
+      <!-- Back arrow and close icon -->
+      <img class="backArrowContainerIcon" src="/static/imgs/icons/containerIcons/arrows/back.png"  style="display:none; cursor:pointer; position:absolute; top:20px; left:20px; width:10px; " />
+      <img class="closeContainerIcon"     src="/static/imgs/icons/containerIcons/arrows/close.png" style="display:none; cursor:pointer; position:absolute; top:20px; right:20px; width:10px;"/>
+      <!-- <img id="visualizationCloseButton"  class="closeButton" src="/static/imgs/visualizations/close.png" onclick="hideContainer('visualizationContainer', ANIMATIONTIME, ['11%', '95%'], hideContainerContent, hide);"/> -->
+    </div>
+
+    <!-- ///////////////HELP CONTAINER/////////////// -->
+    <div id='helpContainer' class="container draggable">
+      <h1 id="helpTitle" style='text-align:center;margin-top:10%;margin-bottom:10%;'>Help</h1>
+
+      <div id='helpContainerContent'>
+      </div>
+
+      <img class="closeContainerIcon"     src="/static/imgs/icons/containerIcons/arrows/close.png" style="display:none; cursor:pointer; position:absolute; top:20px; right:20px; width:10px;"/>
+    </div>
+
+
+    <!-- ///////////////LATERAL BUTTONS CONTAINER/////////////// -->
+    <div class="popoverThis bodyLateralButton" id="settingsLateralButton" data-toggle="tooltip" data-placement="left" title="Settings">
+      <img src="/static/imgs/icons/settings.png" />
+    </div>
+    <div class="popoverThis bodyLateralButton" id="timelineLateralButton" data-toggle="tooltip" data-placement="left" title="Timeline">
+      <img src="/static/imgs/icons/timeline.png" />
+    </div>
+    <div class="popoverThis bodyLateralButton" id="addVisualizationLateralButton" data-toggle="tooltip" data-placement="left" title="Add">
+      <img src="/static/imgs/icons/add.png" />
+    </div>
+    <div class="popoverThis bodyLateralButton" id="helpLateralButton" data-toggle="tooltip" data-placement="left" title="Help">
+      <img src="/static/imgs/icons/help.png" />
+    </div>
+
+    <!-- ///////////////VISUALIZATIONS BODY/////////////// -->
+    <div id="visualizationsBody" ondrop="dropImage(event)" ondragover="allowDrop(event)">
+    </div>
+
+    <!-- ///////////////SCRIPTS/////////////// -->
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.0/socket.io.js"></script>
+
+    <script src="http://formvalidation.io/vendor/formvalidation/js/formValidation.min.js"></script>
+    <script src="http://formvalidation.io/vendor/formvalidation/js/framework/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js" integrity="sha512-A7vV8IFfih/D732iSSKi20u/ooOfj/AGehOKq0f4vLT1Zr2Y+RX7C+w8A1gaSasGtRUZpF/NZgzSAu4/Gc41Lg==" crossorigin=""></script>
+    <script src="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js"></script>
+
+    <script src="/static/js/loadFiles.js"></script>
+  </body>
+</html>

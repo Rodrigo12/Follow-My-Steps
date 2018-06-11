@@ -1,0 +1,31 @@
+#helpContainer{
+  display: none;
+}
+
+#helpContainerContent{
+  height: 357px;
+  overflow: scroll;
+}
+
+.helpDiv{
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  margin-left: 12px;
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.helpVideoTitle{
+  margin-top:10px;
+  margin-bottom:10px;
+  text-align:center;
+}
+
+.helpVideo{
+  width:100%;
+  height:75%;
+  padding:10px;
+}

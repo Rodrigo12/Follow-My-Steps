@@ -1,0 +1,298 @@
+input[type="color"] {
+	opacity: 0;
+}
+
+.brush .extent {
+	fill: rgba(0, 0, 0, 1);
+  stroke:rgba(0, 0, 0, 0.5);
+  stroke-opacity: 1;
+  stroke-width: 1px;
+  fill-opacity: .1;
+  shape-rendering: crispEdges;
+}
+
+
+#loading{
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 101;
+  display: none;
+}
+
+#loading div{
+  position: fixed;
+  top: 38%;
+  left: 45%;
+  width: 150px;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 100px;
+  border: 1px solid rgba(200, 200, 200, 1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#loading img{
+  position: absolute;
+  top: 10%;
+  left: 12%;
+  width: 80%;
+  height: 80%;
+}
+
+.loadingSmall{
+  display: inline-block;
+  margin-left:10px;
+  width:30px;
+  height:30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 100px;
+  border: 1px solid rgba(200, 200, 200, 1);
+}
+
+.loadingSmall img{
+  margin-top: 20%;
+  width: 20px;
+  height: 20px;
+}
+
+#plugins{
+  display: inline-block;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.lateralButton, .bodyLateralButton{
+  position: fixed;
+  display:block;
+  left: 96%;
+  z-index: 100;
+	width:35px;
+	height:35px;
+	border-radius:30px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 10px #888888;
+	background-color: white;
+	cursor: pointer;
+}
+
+.bodyLateralButton img{
+  position: absolute;
+	top: 50%;
+  left: 50%;
+  z-index: 101;
+	height:15px;
+	cursor: pointer;
+	transform: translate(-50%, -50%);
+}
+
+#settingsLateralButton{
+  top: 2%;
+}
+
+#timelineLateralButton{
+  top: 8%;
+}
+
+#addVisualizationLateralButton{
+  top: 14%;
+}
+
+#helpLateralButton{
+  top: 20%;
+}
+
+
+#settingsContainer{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  padding-bottom: 10px;
+  background-color: rgba(235,235,235,1);
+  border-radius: 35px;
+  left: 95%;
+  top: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#blurDiv{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: #FFF;
+  background-size: cover !important;
+}
+
+
+.popoverElement {
+  display: block;
+  width: 100%;
+  opacity: 1.0;
+}
+.popoverElement:hover{
+  opacity: 0.3;
+  cursor: pointer;
+}
+.popoverElementText{
+  display: inline-block;
+}
+.popoverElementImg{
+  position: absolute;
+  height: 15px;
+  right: 12%;
+  margin-top: 7%;
+}
+
+.closeButton{
+  display:none;
+  position: absolute;
+  top: 5%;
+  left: 93%;
+  height: 20px;
+}
+
+.container{
+  position: fixed;
+  width: 0px;
+  height: 0px;
+  padding-bottom: 10px;
+  background-color: rgba(235,235,235,1);
+  border-radius: 35px;
+  z-index: 50;
+  display: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.popupImage{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  padding: 5%;
+  margin-top: 5%;
+	background-color: white;
+}
+
+.popupBackIcon{
+	position:absolute;
+	display: none;
+	opacity:0;
+	z-index:0;
+	height:10px;
+	top:-6px;
+	left:-15px;
+	overflow: hidden;
+	cursor:pointer;
+}
+
+.popupBackIcon:hover{
+	opacity:0.5;
+}
+
+.btn{
+  border-radius: 30px;
+}
+
+/*//////////////////////////UPLOAD MENU CSS//////////////////////////*/
+.updateSelect:focus,  .specialSelect:focus{
+  border-color: transparent;
+  outline: 0;
+  -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.0),0 0 0px rgba(0,0,0,.0);
+  box-shadow: inset 0 0px 0px rgba(0,0,0,.0),0 0 0px rgba(0,0,0,.0);
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.updateSelect, .specialSelect{
+  border-color: transparent;
+  outline: 0;
+  -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.0),0 0 0px rgba(0,0,0,.0);
+  box-shadow: inset 0 0px 0px rgba(0,0,0,.0),0 0 0px rgba(0,0,0,.0);
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  text-align: center;
+}
+
+#updateButton{
+  position: absolute;
+  top: 80%;
+  left:50%;
+  transform: translate(-50%, 0%);
+}
+
+#cacheButton{
+  position: absolute;
+  top: 80%;
+  left:50%;
+  transform: translate(-50%, 0%);
+}
+
+#reportButton{
+  position: absolute;
+  top: 80%;
+  left:50%;
+  transform: translate(-50%, 0%);
+}
+
+/*//////////////////////////FEEDBACK CSS//////////////////////////*/
+.feedbackContainer{
+  position: fixed;
+  top: 3%;
+  left: 2%;
+  width: 10px;
+  height: 60px;
+  padding-bottom: 10px;
+  background-color: rgba(235,235,235,1);
+  border-radius: 15px;
+  z-index: 50;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 0.0;
+}
+
+.feedbackContainerContent{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.feedbackImage{
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  width: 30px;
+  height: 30px;
+  transform: translate(0px, -50%);
+}
+
+.feedbackImageType{
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  width: 10px;
+  height: 10px;
+  transform: translate(0px, -50%);
+}
+
+.feedbackMessage{
+  position: absolute;
+  top: 50%;
+  left: 17%;
+  width: 70%;
+  transform: translate(0px, -50%);
+  margin-left: 5px;
+}
+
+.feedbackClose{
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  font-size: 1.3em;
+  cursor: pointer;
+  transform: translate(0px, -50%);
+}

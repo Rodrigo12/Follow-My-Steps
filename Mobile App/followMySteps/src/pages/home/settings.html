@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Settings
+    </ion-title>
+    <ion-buttons start>
+      <button ion-button (click)="dismiss()">
+        <span ion-text color="primary" showWhen="ios">Cancel</span>
+      </button>
+    </ion-buttons>
+    <ion-buttons end>
+      <button ion-button (click)="applyChanges()">
+        <span ion-text color="primary" showWhen="ios">Apply</span>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+      <ion-list-header> Map Settings </ion-list-header>
+
+    <ion-item style="font-size:14px;">
+      <ion-label> Show Covered Area</ion-label>
+      <ion-toggle checked={{showArea}} [(ngModel)]="showArea"></ion-toggle>
+    </ion-item>
+
+    <ion-item style="font-size:14px;">
+      <ion-label> Show Locations Markers</ion-label>
+      <ion-toggle checked={{showLocations}} [(ngModel)]="showLocations"></ion-toggle>
+    </ion-item>
+
+    <ion-item style="font-size:12px;">
+      <ion-label style="text-align:left;">Covered Area Radius</ion-label>
+      <ion-range min="1" max="10" [(ngModel)]="areaRadius" color="brightness" pin="true">
+        <ion-label range-left>1km</ion-label>
+        <ion-label range-right>10km</ion-label>
+      </ion-range>
+    </ion-item>
+
+    <ion-item style="font-size:12px;">
+      <ion-label>Time between updates</ion-label>
+      <ion-range min="1" max="10" [(ngModel)]="updateTime" color="brightness" pin="true">
+        <ion-label range-left>1min</ion-label>
+        <ion-label range-right>10min</ion-label>
+      </ion-range>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
