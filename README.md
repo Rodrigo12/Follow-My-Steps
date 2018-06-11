@@ -1,7 +1,7 @@
 # Follow My Steps
 
 <div style="width: 100%; text-align: center;">
-<img src="https://raw.githubusercontent.com/Rodrigo12/Follow-My-Steps/master/FollowMyStepsAppIcon.png" style="left:auto;" />
+<img src="https://raw.githubusercontent.com/Rodrigo12/Follow-My-Steps/master/FollowMyStepsAppIcon.png" style="margin: 0 auto;" />
 </div>
 
 Welcome to Follow My Steps Web and Mobile project
