@@ -13,11 +13,11 @@ This system is divided into two parts, the Project which is the web-based applic
 
 ## Web
 The Web Application is focused on displaying the user's data through the use of visualization techniques that can be inserted, edited or deleted, by each user, on the interface.
-Initially the system support around 7 types of file formats, which include the CSV, LIFE, XLSX, GPX, JPG, PNG and GIF. You can extend these functionalities by creating new plugins. Furthermore, you can create new visualizations besides the ones implemented, which include the <strong>Map</strong>, <strong>the Bar Chart</strong>, the <strong>Area chart</strong>, the <strong>Line Chart</strong>, the <strong>Pie Chart</strong>, <strong>Calendar Heatmap</strong>, the <strong>Timeline</strong>, the <strong>Text</strong> and the <strong>images</strong>.
+Initially the system support around 7 types of file formats, which include the CSV, LIFE, XLSX, GPX, JPG, PNG and GIF. You can extend these functionalities by creating new plugins. Furthermore, you can create new visualizations besides the ones implemented, which include the <strong>Map</strong>, the <strong>Bar Chart</strong>, the <strong>Area chart</strong>, the <strong>Line Chart</strong>, the <strong>Pie Chart</strong>, the <strong>Calendar Heatmap</strong>, the <strong>Timeline</strong>, the <strong>Text</strong> and the <strong>images</strong>.
 
-<img src="img/financial.png" style="margin: auto;" />
+<img src="img/financial.png" style="margin: auto; width:100px; display:inline-block;" />
 
-<img src="img/travel.png" style="margin: auto;" />
+<img src="img/travel.png" style="margin: auto; width:100px; display:inline-block;" />
 
 To run the web application you need to posteriorly install the PostgreSQL database and its geographical extension PostGIS.
 Additionally, you need to have Node.js installed on your machine.
